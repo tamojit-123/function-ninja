@@ -1,0 +1,27 @@
+{
+  "name": "function-ninja",
+  "version": "1.0.0",
+  "description": "package with different javascript useful function",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamojit-123/function-ninja.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "tamojit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamojit-123/function-ninja/issues"
+  },
+  "homepage": "https://github.com/tamojit-123/function-ninja#readme",
+  "dependencies": {
+    "chance": "^1.1.12",
+    "lodash": "^4.17.21"
+  }
+}
