@@ -21,9 +21,13 @@ async function fetchExchangeRate(apiKey, fromCurrency, toCurrency) {
 }
 
 // Example usage:
-const apiKey = 'YOUR_API_KEY'; // Replace with your API key
-fetchExchangeRate(apiKey, 'USD', 'EUR').then(rate => {
-    console.log(`Exchange Rate: 1 USD = ${rate} EUR`);
-});
+/**
+ * const apiKey = 'YOUR_API_KEY'; // Replace with your API key
+ * fetchExchangeRate(apiKey, 'USD', 'EUR').then(rate => {
+ *     console.log(`Exchange Rate: 1 USD = ${rate} EUR`);
+ * });
+ * @type {string}
+ */
+
 
 export default fetchExchangeRate;

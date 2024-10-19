@@ -59,15 +59,15 @@ const random = (airports) => {
 }
 
 // Mock airports from the provided JSON
-const airports = [
-    { IATA_FAA: "GKA" }, { IATA_FAA: "MAG" }, { IATA_FAA: "HGU" }, { IATA_FAA: "LAE" }, { IATA_FAA: "POM" }
-    // Add other airports from your JSON file
-];
+// const airports = [
+//     { IATA_FAA: "GKA" }, { IATA_FAA: "MAG" }, { IATA_FAA: "HGU" }, { IATA_FAA: "LAE" }, { IATA_FAA: "POM" }
+//     Add other airports from your JSON file
+// ];
 
 // Generate 100 mock users
-const users = Array.from({ length: 100 }, () => random(airports));
+// const users = Array.from({ length: 100 }, () => random(airports));
 
 // Output result
-console.log(JSON.stringify({ users: users }, null, 2));
+// console.log(JSON.stringify({ users: users }, null, 2));
 
 export { randomDate, randomCard, randomFlightItinerary, random };

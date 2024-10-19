@@ -17,8 +17,8 @@ function splitFileName(fileName) {
 }
 
 // Example usage:
-console.log(splitFileName("document.pdf"));  // Output: { name: "document", extension: "pdf" }
-console.log(splitFileName("fileWithoutExtension"));  // Output: { name: "fileWithoutExtension", extension: "" }
+// console.log(splitFileName("document.pdf"));  // Output: { name: "document", extension: "pdf" }
+// console.log(splitFileName("fileWithoutExtension"));  // Output: { name: "fileWithoutExtension", extension: "" }
 
 //2. Change or Update File Extension
 function changeFileExtension(fileName, newExtension) {
@@ -27,8 +27,8 @@ function changeFileExtension(fileName, newExtension) {
 }
 
 // Example usage:
-console.log(changeFileExtension("image.jpeg", "png"));  // Output: "image.png"
-console.log(changeFileExtension("document.txt", "docx"));  // Output: "document.docx"
+// console.log(changeFileExtension("image.jpeg", "png"));  // Output: "image.png"
+// console.log(changeFileExtension("document.txt", "docx"));  // Output: "document.docx"
 
 //3. Sanitize File Name
 function sanitizeFileName(fileName) {
@@ -36,7 +36,7 @@ function sanitizeFileName(fileName) {
 }
 
 // Example usage:
-console.log(sanitizeFileName("my*invalid:file?name.txt"));  // Output: "my_invalid_file_name.txt"
+// console.log(sanitizeFileName("my*invalid:file?name.txt"));  // Output: "my_invalid_file_name.txt"
 
 //4. Generate Unique File Name
 function generateUniqueFileName(originalFileName) {
@@ -46,7 +46,7 @@ function generateUniqueFileName(originalFileName) {
 }
 
 // Example usage:
-console.log(generateUniqueFileName("photo.jpg"));  // Output: "photo_1632774577923.jpg"
-console.log(generateUniqueFileName("document.pdf"));  // Output: "document_1632774577923.pdf"
+// console.log(generateUniqueFileName("photo.jpg"));  // Output: "photo_1632774577923.jpg"
+// console.log(generateUniqueFileName("document.pdf"));  // Output: "document_1632774577923.pdf"
 
 export {createFileWithExtensions, changeFileExtension, generateUniqueFileName, sanitizeFileName, splitFileName};

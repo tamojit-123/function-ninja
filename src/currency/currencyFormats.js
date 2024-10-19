@@ -4,8 +4,8 @@ function formatCurrency(value, locale = 'en-US', currency = 'USD') {
 }
 
 // Example usage:
-console.log(formatCurrency(1234.56));  // Output: $1,234.56 (for en-US)
-console.log(formatCurrency(1234.56, 'de-DE', 'EUR'));  // Output: 1.234,56 € (for Germany, Euro)
+// console.log(formatCurrency(1234.56));  // Output: $1,234.56 (for en-US)
+// console.log(formatCurrency(1234.56, 'de-DE', 'EUR'));  // Output: 1.234,56 € (for Germany, Euro)
 
 //Currency Formatting Function with Optional Decimals
 function formatCurrencyWithDecimals(value, locale = 'en-US', currency = 'USD', decimals = 2) {
@@ -18,8 +18,8 @@ function formatCurrencyWithDecimals(value, locale = 'en-US', currency = 'USD', d
 }
 
 // Example usage:
-console.log(formatCurrencyWithDecimals(1234.567, 'en-US', 'USD', 3));  // Output: $1,234.567
-console.log(formatCurrencyWithDecimals(1234.5, 'ja-JP', 'JPY', 0));    // Output: ¥1,235 (no decimals for Japanese Yen)
+// console.log(formatCurrencyWithDecimals(1234.567, 'en-US', 'USD', 3));  // Output: $1,234.567
+// console.log(formatCurrencyWithDecimals(1234.5, 'ja-JP', 'JPY', 0));    // Output: ¥1,235 (no decimals for Japanese Yen)
 
 //Currency Formatting for Multiple Locales
 function formatCurrencyAutoLocale(value, currency = 'USD', decimals = 2) {
@@ -33,6 +33,6 @@ function formatCurrencyAutoLocale(value, currency = 'USD', decimals = 2) {
 }
 
 // Example usage:
-console.log(formatCurrencyAutoLocale(1500.50, 'GBP'));  // Output will vary based on the user's locale
+// console.log(formatCurrencyAutoLocale(1500.50, 'GBP'));  // Output will vary based on the user's locale
 
 export {formatCurrencyAutoLocale, formatCurrencyWithDecimals, formatCurrency};
