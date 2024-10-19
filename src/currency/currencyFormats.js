@@ -8,6 +8,7 @@ function formatCurrency(value, locale = 'en-US', currency = 'USD') {
 // console.log(formatCurrency(1234.56, 'de-DE', 'EUR'));  // Output: 1.234,56 € (for Germany, Euro)
 
 //Currency Formatting Function with Optional Decimals
+
 function formatCurrencyWithDecimals(value, locale = 'en-US', currency = 'USD', decimals = 2) {
     return new Intl.NumberFormat(locale, {
         style: 'currency',
